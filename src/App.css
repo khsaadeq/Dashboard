@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+
+  --background-main: #ebecf0
+}
+
+.container {
+  background-color: var(--background-main);
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  direction: ltr;
+
+}
+
+.container h1 {
+
+  text-align: center;
+  color: #bbbecb;
+}
+
+.container form input {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  background-color: transparent;
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  box-shadow: 4px 4px 4px #4d5a6b3b inset, -6px -6px 15px white inset;
+}
+
+.log-in {
+  position: relative;
+  margin: 15px 0;
+}
+
+.button {
+  width: 350px;
+  height: 40px;
+  background-color: var(--background-main);
+  font-weight: bold;
+  box-shadow: -6px -6px 10px white, 7px 7px 20px #3f415342;
+}
+
+.Home {
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.AppHeader {
+  background-color:rgb(243, 228, 202);
+  border-radius:7px ;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 20px 10px 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+
+.SideMenu{
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+}
+.avatar{
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  padding-bottom: 10px;
+}
+.AppFooter {
+  background-color: var(--background-main);
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  /* position: fixed;
+  bottom: 0; */
+  width: 100%;
+}
+
+.SideMenuAndPageContent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  position: relative;
+}
+
+.PageContent {
+  padding-right: 12px;
+
+}
+
+.icon {
+
+  font-size: 22px;
+  color: white;
+  background-color: #65a9f3;
+  /* background-color: rgba(0, 0, 255, 0.25); */
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.header-container {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+
+.table {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  width: 100%;
+  /* margin: auto; */
+}
+.center {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  width: 100vw;
+  
+}
+.parent{
+  padding : 10PX;
+  margin: 20px auto;
+  width: 800px;
+  height: 300px;
+  /* background-color: #eee; */
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  /* grid-template-rows:repeat(4,1fr); */
+  gap: 15px 15px;
+  column-gap: 15px;
+  align-content: center;
+}
+
+.parent div{
+  
+  /* background-color: red; */
+  /* color:  rgb(3,155, 140); */
+  /* padding: 20px; */
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.parent div .btn{
+  height: 55px;
+  background-color: rgb(3,155, 140);
+  font-weight: bold;
+}
+
+.custom-input{
+  width: 150px;
+  font-weight: bold;
+  text-align: center;
+}
+.custom-input::selection{
+ 
+  font-weight: bold;
+  text-align: center;
+}
+.title{
+  background-color:rgb(190,139,50);
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+
+}
+.headerTitle{
+  border-radius: 10px;
+  background-color: rgb(3,155, 140);
+  padding-right: 10px;
+   margin-top: 15px;
+    font-size: 22px;
+}
+.headerTitle div{
+  border-radius: 10px;
+  background-color: white;
+  
+}
+div #rc-tabs-1-tab-1{
+  margin-left: 15px;
+  margin-right: 70px;
+  background-color: rgb(3,155, 140);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 43px;
+    text-align: center;
+}
+div#rc-tabs-1-tab-2{
+  background-color: rgb(190,139,50);
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.picture{
+  position: absolute;
+    top: 100px;
+    right: 514px;
+}
+div p span{
+
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 15px;
+  color: #65a9f3;
+
+}
+.shd{
+  font-size: 20px;
+  border: 2px black solid;
+    border-radius: 7px;
+    padding: 5px;
+    margin-bottom: -6px;
+}
+input{
+  text-align: center;
+}
